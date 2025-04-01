@@ -1,0 +1,44 @@
+0.001 			   ! mu: Regularization parameter
+0.001			   ! tol: Iteration tolerance; stop when dY/Y>tol for CG
+1			   ! reg0: 0-2nd-order smooth (default), 1-zeroth-order smooth
+0	                   ! resume: 0-no, 1-yes (choice for new or resume run)
+1			   ! sav_res:  0-no, 1-yes (option for saving the middle result for resume run)
+1			   ! sav_iter: 0-no, 1-yes (option for saving data and reg. errors for each step)
+1 			   ! wt_nr: 0-no, 1-yes (select if weighting factor in regularization is applied)
+1 			   ! write_Abuff: 0-no, 1-yes (option for saving matrix A of ray tracings)
+0 			   ! read_Abuff: 0-no, 1-yes (if write_Abuff=1, then 0 must be set)
+0 			   ! write_Rbuff: 0-no, 1-yes (option for saving matrix R for regularization)
+0			   ! read_Rbuff: 0-no, 1-yes (if write_Rbuff=1, then 0 must be set)
+'../data/'                   ! directory storing the data
+'cobs_coord_cr2098_dbl.txt'  ! file including the positions of observer (satellite)
+'pbbk_xr_cr2098.txt'	   ! file including the background pB(r)
+'pbbk_xr_cr2098.txt'	   ! file including the background pB(r) for radial weighting in Regular. (or N(r))
+28 			   ! number of the rebinned pB images in 128x128 pixels
+cr2098_rbimg_sz128_1.dat   
+cr2098_rbimg_sz128_2.dat   
+cr2098_rbimg_sz128_3.dat
+cr2098_rbimg_sz128_4.dat
+cr2098_rbimg_sz128_5.dat
+cr2098_rbimg_sz128_6.dat
+cr2098_rbimg_sz128_7.dat
+cr2098_rbimg_sz128_8.dat
+cr2098_rbimg_sz128_9.dat
+cr2098_rbimg_sz128_10.dat
+cr2098_rbimg_sz128_11.dat
+cr2098_rbimg_sz128_12.dat
+cr2098_rbimg_sz128_13.dat
+cr2098_rbimg_sz128_14.dat
+cr2098_rbimg_sz128_15.dat
+cr2098_rbimg_sz128_16.dat
+cr2098_rbimg_sz128_17.dat
+cr2098_rbimg_sz128_18.dat
+cr2098_rbimg_sz128_19.dat
+cr2098_rbimg_sz128_20.dat
+cr2098_rbimg_sz128_21.dat
+cr2098_rbimg_sz128_22.dat
+cr2098_rbimg_sz128_23.dat
+cr2098_rbimg_sz128_24.dat
+cr2098_rbimg_sz128_25.dat
+cr2098_rbimg_sz128_26.dat
+cr2098_rbimg_sz128_27.dat
+cr2098_rbimg_sz128_28.dat ! filename of the 28th image

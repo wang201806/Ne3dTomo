@@ -1,0 +1,11 @@
+0.20			   ! sp: ratio of extracted row to total row number of matrix A
+5			   ! mfold: m-fold cross-validation
+6			   ! msz: number of mu values
+0.05 0.1 0.5 1.0 10. 50.   ! mu: values of regularization parameter
+0.01                       ! tol: Iteration tolerance; stop when dY/Y>tol for CG
+0                          ! resume: 0-no, 1-yes (choice for new or resume run)
+0                          ! sav_res:  0-no, 1-yes (option for saving the middle result for resume run)
+0                          ! sav_iter: 0-no, 1-yes (option for saving data and reg. errors for each step)
+'../Sph-grid/Buff_Asp_p181t91r51.dat'          ! filename of Abuffname containing matrix A and ydata
+'../Sph-grid/Buff_Rsp_reg2_p181t91r51_nwt.dat' ! filename of Rbuffname containing matrix R
+1			   ! is_nwt: 0-no, 1-yes (whether radial weighting is applied in regularization) 
