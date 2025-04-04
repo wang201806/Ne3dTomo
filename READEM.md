@@ -9,7 +9,8 @@ Revision history:
  The detailed method, applications to STEREO/COR1 data, validation, and uncertainty 
  analysis are discussed in the publication "Wang, T., Arge, C.N., & Jones, S. (2025), 
  "Improved Tomographic Reconstruction of 3D Global Coronal Density from STEREO/COR1 
- Observations", Solar Physics, 300, 46.  DOI: 10.1007/s11207-025-02454-8
+ Observations", Solar Physics, 300, 46.  DOI: 10.1007/s11207-025-02454-8 
+ Read the article in PDF at https://rdcu.be/egj5O
 
  # Required environment and Softwares
   Fortran 90 Compiler: ifx or gfortran in Linux OS
