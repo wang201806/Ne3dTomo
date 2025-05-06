@@ -1,0 +1,6 @@
+#!/bin/bash
+
+ifx m_mrgrnk.f90 -c
+ifx tomo_sph_omp.f90  m_mrgrnk.o -O2 -heap-arrays -o omp_run.x -qopenmp
+
+echo "[omp_run.x] is created!"
